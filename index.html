@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tasty Blog</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- ШАПКА -->
+		<header class="header">
+			<a href="#" class="logo">🍴 Tasty Blog</a>
+
+			<nav class="nav" id="nav">
+				<ul class="nav-menu">
+					<li><a href="#" class="nav-link">Рецепти</a></li>
+					<li><a href="#" class="nav-link">Категорії</a></li>
+					<li><a href="#" class="nav-link">Про нас</a></li>
+					<li><a href="#" class="nav-link">Контакти</a></li>
+				</ul>
+			</nav>
+
+			<div class="header-actions">
+				<button
+					class="theme-btn"
+					id="theme-btn"
+					type="button"
+					aria-label="Перемкнути тему"
+				>
+					🌙
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<!-- HERO -->
+			<section class="hero">
+				<div class="container">
+					<h1 class="hero-title">Смачні рецепти<br />для кожного дня</h1>
+					<p class="hero-desc">
+						Понад 500 рецептів з покроковими фото та відео. Від сніданку до
+						вечері.
+					</p>
+					<div class="hero-actions">
+						<a href="#" class="btn btn-primary">Переглянути рецепти</a>
+						<a href="#" class="btn btn-secondary">Дізнатись більше</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- КАРТКИ -->
+			<section class="recipes">
+				<div class="container">
+					<h2 class="section-title">Популярні рецепти</h2>
+					<ul class="recipes-list">
+						<li class="recipe-card">
+							<img
+								class="card-img"
+								src="./img/Pasta-Karbonara_siteWEbUkr.jpg"
+								alt="Паста Карбонара з беконом і петрушкою"
+								width="1000"
+								height="667"
+								loading="lazy"
+							/>
+							<div class="card-body">
+								<h3 class="card-title">Паста Карбонара</h3>
+								<p class="card-desc">
+									Класичний італійський рецепт за 20 хвилин.
+								</p>
+								<a href="#" class="card-link">Читати →</a>
+							</div>
+						</li>
+						<li class="recipe-card">
+							<img
+								class="card-img"
+								src="./img/gs.jpg"
+								alt="Грецький салат з фетою та оливками"
+								width="554"
+								height="554"
+								loading="lazy"
+							/>
+							<div class="card-body">
+								<h3 class="card-title">Грецький салат</h3>
+								<p class="card-desc">
+									Свіжий і ситний салат без теплової обробки.
+								</p>
+								<a href="#" class="card-link">Читати →</a>
+							</div>
+						</li>
+						<li class="recipe-card">
+							<img
+								class="card-img"
+								src="./img/images.jpg"
+								alt="Шоколадний фондан із рідкою серединою"
+								width="638"
+								height="480"
+								loading="lazy"
+							/>
+							<div class="card-body">
+								<h3 class="card-title">Шоколадний фондан</h3>
+								<p class="card-desc">
+									Десерт із рідкою серединою — легко і вражаюче.
+								</p>
+								<a href="#" class="card-link">Читати →</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- ФОРМА ПІДПИСКИ -->
+			<section class="subscribe">
+				<div class="container">
+					<div class="subscribe-inner">
+						<div class="subscribe-text">
+							<h2>Підпишись на розсилку</h2>
+							<p>Нові рецепти щотижня прямо на пошту.</p>
+						</div>
+						<form class="subscribe-form">
+							<input
+								type="email"
+								placeholder="Твій email"
+								class="email-input"
+								required
+							/>
+							<label class="checkbox-label">
+								<input type="checkbox" class="checkbox-input" required />
+								<span class="checkbox-custom"></span>
+								Погоджуюсь з умовами використання
+							</label>
+							<button type="submit" class="btn btn-primary">Підписатись</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- ФУТЕР -->
+		<footer class="footer">
+			<div class="container footer-inner">
+				<a href="#" class="logo">🍴 Tasty Blog</a>
+
+				<ul class="social-list">
+					<li><a href="#" class="social-link">Instagram</a></li>
+					<li><a href="#" class="social-link">Facebook</a></li>
+					<li><a href="#" class="social-link">YouTube</a></li>
+					<li><a href="#" class="social-link">Telegram</a></li>
+				</ul>
+
+				<p class="copyright">© 2026 Tasty Blog. Усі права захищено.</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
