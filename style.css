@@ -374,11 +374,6 @@ ul {
 		background-color: var(--bg-color);
 		border-bottom: 1px solid var(--border-color);
 	}
-
-	.nav.is-open {
-		display: block;
-	}
-
 	.nav-menu {
 		flex-direction: column;
 		gap: 0;
